@@ -1,0 +1,4 @@
+<% unless TelemetryRails::Settings.get(:dismissed) %> 
+  <span style="color:red;">WARNING</span> TELEMETRY IS RUNNING IN THIS SERVER!!!!!
+  <%= link_to 'Dismiss',  telemetry_rails.dismiss_path %>
+<% end %>

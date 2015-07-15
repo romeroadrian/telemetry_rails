@@ -1,0 +1,1 @@
+puts "Telemetry Rails initializer"
